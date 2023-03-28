@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="D:\mudasir\After Microverse\Module 3\Week 1\Math-Magicians\public\Windows_Calculator_icon.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Math-Magicians Calculator</b></h3>
@@ -161,8 +161,6 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Mudasir**
 
 - GitHub: [@Mudassirnazir](https://github.com/Rana-Mudassir)
@@ -174,8 +172,6 @@ You can deploy this project using:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Stying]**
 - [ ] **[calculator_game]**

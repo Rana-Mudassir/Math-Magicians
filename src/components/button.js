@@ -1,80 +1,171 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-function Button() {
+function Button({ clicked }) {
   return (
     <>
       <table className="calculator">
         <tbody>
           <tr>
-            <td colSpan={4} classID="display">
-              <input type="text" id="displayInput" placeholder="0" />
+            <td>
+              <input
+                className="silverColor"
+                onClick={clicked}
+                type="button"
+                value="AC"
+              />
+            </td>
+            <td>
+              <input
+                className="silverColor"
+                onClick={clicked}
+                type="button"
+                value="+/-"
+              />
+            </td>
+            <td>
+              <input
+                className="silverColor"
+                onClick={clicked}
+                type="button"
+                value="%"
+              />
+            </td>
+            <td>
+              <input
+                className="diffColor"
+                onClick={clicked}
+                type="button"
+                value="÷"
+              />
             </td>
           </tr>
           <tr>
             <td>
-              <input className="silverColor" type="button" value="Ac" />
+              <input
+                className="silverColor"
+                onClick={clicked}
+                type="button"
+                value="7"
+              />
             </td>
             <td>
-              <input className="silverColor" type="button" value="+/-" />
+              <input
+                className="silverColor"
+                onClick={clicked}
+                type="button"
+                value="8"
+              />
             </td>
             <td>
-              <input className="silverColor" type="button" value="%" />
+              <input
+                className="silverColor"
+                onClick={clicked}
+                type="button"
+                value="9"
+              />
             </td>
             <td>
-              <input className="diffColor" type="button" value="÷" />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <input className="silverColor" type="button" value="7" />
-            </td>
-            <td>
-              <input className="silverColor" type="button" value="8" />
-            </td>
-            <td>
-              <input className="silverColor" type="button" value="9" />
-            </td>
-            <td>
-              <input className="diffColor" type="button" value="X" />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <input className="silverColor" type="button" value="4" />
-            </td>
-            <td>
-              <input className="silverColor" type="button" value="5" />
-            </td>
-            <td>
-              <input className="silverColor" type="button" value="6" />
-            </td>
-            <td>
-              <input className="diffColor" type="button" value="-" />
+              <input
+                className="diffColor"
+                onClick={clicked}
+                type="button"
+                value="x"
+              />
             </td>
           </tr>
           <tr>
             <td>
-              <input className="silverColor" type="button" value="1" />
+              <input
+                className="silverColor"
+                onClick={clicked}
+                type="button"
+                value="4"
+              />
             </td>
             <td>
-              <input className="silverColor" type="button" value="2" />
+              <input
+                className="silverColor"
+                onClick={clicked}
+                type="button"
+                value="5"
+              />
             </td>
             <td>
-              <input className="silverColor" type="button" value="3" />
+              <input
+                className="silverColor"
+                onClick={clicked}
+                type="button"
+                value="6"
+              />
             </td>
             <td>
-              <input className="diffColor" type="button" value="+" />
+              <input
+                className="diffColor"
+                onClick={clicked}
+                type="button"
+                value="-"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                className="silverColor"
+                onClick={clicked}
+                type="button"
+                value="1"
+              />
+            </td>
+            <td>
+              <input
+                className="silverColor"
+                onClick={clicked}
+                type="button"
+                value="2"
+              />
+            </td>
+            <td>
+              <input
+                className="silverColor"
+                onClick={clicked}
+                type="button"
+                value="3"
+              />
+            </td>
+            <td>
+              <input
+                className="diffColor"
+                onClick={clicked}
+                type="button"
+                value="+"
+              />
             </td>
           </tr>
           <tr>
             <td colSpan={2}>
-              <input className="silverColor" type="button" value="0" />
+              <input
+                className="silverColor"
+                onClick={clicked}
+                type="button"
+                value="0"
+              />
             </td>
             <td>
-              <input className="silverColor" type="button" value="." />
+              <input
+                className="silverColor"
+                onClick={clicked}
+                type="button"
+                value="."
+              />
             </td>
             <td>
-              <input className="diffColor" type="button" value="=" />
+              <input
+                className="diffColor"
+                onClick={clicked}
+                type="button"
+                value="="
+              />
             </td>
           </tr>
         </tbody>
@@ -82,5 +173,9 @@ function Button() {
     </>
   );
 }
+
+Button.propTypes = {
+  clicked: PropTypes.func.isRequired,
+};
 
 export default Button;

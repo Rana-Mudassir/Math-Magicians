@@ -1,7 +1,6 @@
 table {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
   border-spacing: 0;
   background-color: silver;
 }
@@ -17,7 +16,7 @@ input[type='button'] {
 
 input[type='text'] {
   padding: 20px 30px;
-  font-size: 24px;
+  font-size: 27px;
   font-weight: bold;
   border: none;
 }
@@ -30,6 +29,9 @@ input[type='text'] {
   width: 23rem;
   background-color: #858694;
   text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
 }
 
 .diffColor {

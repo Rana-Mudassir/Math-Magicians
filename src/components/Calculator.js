@@ -25,10 +25,17 @@ function Calculator() {
   }
 
   return (
-    <div>
-      <div id="displayInput">{result}</div>
-      <Button clicked={handleClick} />
-    </div>
+    <>
+      <div className="wrapper">
+        <div id="cal-div1">
+          <h1>Lets do some Math!</h1>
+        </div>
+        <div id="cal-div2">
+          <div id="displayInput">{result}</div>
+          <Button clicked={handleClick} />
+        </div>
+      </div>
+    </>
   );
 }
 

@@ -78,6 +78,10 @@ HTML, CSS, NodeJS v18, ReactJS
 
 - Components.
 
+### Live Demo <a name="#live-demo"></a>
+
+[Math-Magicians](https://extraordinary-medovik-bcc07d.netlify.app/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
